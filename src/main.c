@@ -1,22 +1,48 @@
 //  Copyright (c) 2018 Antoine Tran Tan
-// C'est l'exercice 44 et non le 43, désolé
+// 
 
 #include "my_header.h"
 
-#include <ansi_c.h>
-#include <userint.h>
-#include "TP_lib.h"
-#include "cvi_gui.h"
+#include <math.h>
+#include "stdlib.h"
 
-void main(void)
+#define RAND_MAX 32767
+
+
+int main(void)
 {
-	short resultat, i=0;
 	
-	while(i<10)
-	{
-		resultat = LancerDe();
-		printf("Numero %d ",resultat);
-		i++;
-	}
+	   unsigned long int S1=0, S3=0 , S4=3;
+	   int n=1 , w=1, z=1, a=4;
+	   
+	   while(n<(9876/3))
+	   {
+		   S1= S1+3*n;
+		   n=n+1;
+	   }
+	  
+	   while(w<13)
+	   {
+		   S3= S3+rand()%10+1;
+		   w= w+1;
+	   }
+	   
+	   while(z<20)
+	   {
+		   if(a%3==0 || a%7==0)
+			 
+		   {
+			   S4= S4 + a;
+		       a= a+1;
+			   z= z+1;
+		   }  
+		 else 
+		
+			 a= a+1;
+	   }
+	   
+	   
+	   return 0;
+	   
 }
-
+			  
