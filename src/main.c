@@ -1,5 +1,5 @@
 //  Copyright (c) 2018 Antoine Tran Tan
-//
+// C'est l'exercice 44 et non le 43, désolé
 
 #include "my_header.h"
 
@@ -19,3 +19,4 @@ void main(void)
 		i++;
 	}
 }
+
