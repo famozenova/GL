@@ -13,7 +13,7 @@ int main(void)
 {
 	
 	   unsigned long int S1=0, S3=0 , S4=3;
-	   int n=1 , w=1, z=1, a=4;
+	   int n=1 , w=1, z=1, a=0;
 	   
 	   while(n<(9876/3))
 	   {
