@@ -93,7 +93,7 @@ int main(void)
 	  n++;
 	}
 
-			b[f]= a[D-f];
+			b[f]= [5-f-1];
 			
 		}
 		
@@ -102,7 +102,7 @@ int main(void)
 		
 		for (u=9, v=0 ; v<5 , u>4 ;  v = v+1 ,u = u-1 )
 		{
-			miroir[u-1]=miroir[v+1];
+			miroir[u]=miroir[v];
 		}
 	 
       return 0;
